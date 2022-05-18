@@ -74,7 +74,6 @@
           hardeningDisable = [ "all" ];
 
           patches = [
-            ./0001-fix-libultraship-compilation.patch
           ];
 
           preBuild = ''
